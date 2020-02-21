@@ -13,7 +13,7 @@ def bar(x):
       for k in range(x, x + 15):
         sum += 1
 
-# Polynomial O(n^c)
+# Polynomial O(n)
 
 def baz(array):
   print(array[1])
@@ -23,4 +23,4 @@ def baz(array):
   for _ in range(1000):
     print('hi')
 
-#Exponential O(c^n)
+#Exponential O(n)
